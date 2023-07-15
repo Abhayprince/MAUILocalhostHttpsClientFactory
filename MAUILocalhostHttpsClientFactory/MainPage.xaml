@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUILocalhostHttpsClientFactory.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Button 
+                Text="Get Data From Api"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="OnGetDataFromApiClicked"
+                HorizontalOptions="Center" />
+
+            <Label x:Name="label" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
+
